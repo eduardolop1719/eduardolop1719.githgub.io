@@ -1,20 +1,40 @@
 body { 
-    background: pink; 
+    background: rgb(250, 234, 232); 
     font-family: 'Times New Roman', Times, serif
 }
-
-.assignment{
+.assignments{
     display:flex;
+    flex-wrap: wrap;
+}
+.assignment{
+    width:30%;
     padding:10px;
+    margin: 10px;
+    background: lightgreen;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px lightgray;
 }
 
 .assignment img {
     width:200px; 
-    padding:10px;
-    margin:10px;
-    background: lightcyan;
+    border: 2px salmon;
+    margin-right: 20px;
+    border-radius: 5px;
+    display:block;
+    margin:auto;
+    
 }
 h1 {
     color: purple;
     text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: black 
+}
+
+.assignment a:hover {
+    color: darkgray;
 }
